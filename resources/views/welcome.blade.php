@@ -15,7 +15,10 @@
     </head>
     <body>
         <h1>Заголовок</h1>
-        
+        <h1>Main</h1>
+        <a href="{{route('about')}}">О нас</a>
+        <a href="/contacts">Контакты</a>
+
         <div class="container">
             @for($i=1; $i <= 12; $i++)
             <div class="card">
